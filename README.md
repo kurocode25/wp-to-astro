@@ -1,8 +1,8 @@
 # wp-to-astro
-wp-to-astro is a tool for exporting WordPress articles to [Astro](https://astro.build/). This convert Wordpress eXtended RSS file to Markdown files with frontmatter in YAML format.
+wp-to-astro is a tool for exporting WordPress articles to [Astro](https://astro.build/)'s one. It convert Wordpress eXtended RSS file to Markdown files include frontmatter.
 
 ## Features
-In the process of generating Markdown files, you can insert `layout`, Astro's unique frontmatter.
+wp-to-astro is a conversion tool specialized for Astro, which allows you to add `layout` frontmatter to files.
 
 ## Dependencies
 - nodejs
@@ -16,8 +16,8 @@ Execute the following command.
 npm install kurocode25/wp-to-astro
 ````
 
-## How to use
-### Basic usage
+## Usage
+### Basic
 Basically, execute it by adding the path of the read file as an argument.
 
 ````
@@ -42,17 +42,19 @@ Options:
   -h, --help display help for command
 ````
 
-## frontmatter
+## Frontmatter
 The frontmatter of the generated Markdwon file is as follows.
 
-- title: article title
-- date: publication date
-- modified: last updated date
-- author: author of article
-- categories: array of categories
-- tags: array of tags
-- layout: path to layout astro file
-- type: post type e.g. page: Fixed article, post: Posted article
+|frontmatter|detail|
+|---|---|
+|title|article title|
+|date|publication date|
+|modified|last updated date|
+|author|author of article|
+|categories|array of categories|
+|tags|array of tags|
+|layout|path to layout astro file|
+|type|post type e.g. page: Fixed article, post: Posted article|
 
 ## Alternate
 - [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown)
