@@ -1,0 +1,28 @@
+{
+  "name": "wp-to-astro",
+  "version": "1.0.0",
+  "description": "Tool to convert WordPress eXtended RSS(WXR) to Markdown for Astro.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exec": "./index.js"
+  },
+  "bin": {
+    "wp-to-astro": "./index.js"
+  },
+  "keywords": [
+    "wordpress",
+    "astro",
+    "blog"
+  ],
+  "author": "Kuro_CODE25",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.0.0",
+    "turndown": "^7.1.3",
+    "turndown-plugin-gfm": "^1.0.2",
+    "xml2js": "^0.6.2"
+  }
+}
